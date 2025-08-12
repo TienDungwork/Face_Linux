@@ -1,0 +1,42 @@
+orangepi
+sudo apt install python3 python3-pip python3-opencv libopencv-dev python3-venv -y
+cd /home/orangepi
+python3 -m venv face_env
+source /home/orangepi/face_env/bin/activate
+pip install keyboard
+pip3 install opencv-python
+
+cd /home/orangepi/face_detection/FaceApp02
+chmod +x FaceApp02
+./FaceApp02 &
+cd /home/orangepi/face_detection
+python3 FaceApp01.py
+source /home/orangepi/face_env/bin/activate
+cd /home/orangepi/face_detection
+sudo /home/orangepi/face_env/bin/python FaceApp01.py
+kill tiến trình
+sudo netstat -tulnp | grep 6590cd /home/orangepi
+sudo kill ..... or sudo kill -9 .....
+mkdir -p /home/orangepi/face_detection/images
+cd /home/avnet
+source face_env/bin/activate
+
+windows 
+cd E:\FaceDetectionSolution - Copy\FaceApp02
+rmdir /s /q publish
+dotnet publish -r linux-arm64 --self-contained true -o .\publish
+cd E:\FaceDetectionSolution - Copy\FaceApp02
+scp -r .\publish\* orangepi@192.168.1.186:/home/orangepi/face_detection/FaceApp03/
+cd E:\FaceDetectionSolution - Copy\FaceApp01
+scp FaceApp011.py orangepi@192.168.1.186:/home/orangepi/face_detection/
+cd E:\FaceDetectionSolution - Copy (2)\FaceApp02\Image
+scp 1.jpg 2.jpg dungg.jpg orangepi@192.168.1.186:/home/orangepi/face_detection/images/
+cd C:\Users\ntien\Downloads\skiasharp.nativeassets.linux.2.88.9\runtimes\linux-arm64\native
+scp libSkiaSharp.so orangepi@192.168.1.186:/home/orangepi/face_detection/FaceApp03/
+scp libSkiaSharp.so orangepi@192.168.137.175:/home/orangepi/face1/
+/home/orangepi/face1
+c++
+windows
+sudo chown -R orangepi:orangepi /home/orangepi/SeetaFace6
+scp -r C:\Users\ntien\Downloads\sf6.0_models\sf3.0_models\* orangepi@192.168.1.100:/home/orangepi/SeetaFace6/models
+scp -r D:\Dowloads\jet\* dung@192.168.1.100:/home/dung/
