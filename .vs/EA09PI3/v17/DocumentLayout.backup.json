@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ViewFaceCore\\EA09PI3 - jsonfinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B25B528F-BA7B-486E-BC4D-C487EBD2831D}|EA09PI3.csproj|e:\\viewfacecore\\ea09pi3 - jsonfinal\\ea09pi3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B25B528F-BA7B-486E-BC4D-C487EBD2831D}|EA09PI3.csproj|solutionrelative:ea09pi3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25B528F-BA7B-486E-BC4D-C487EBD2831D}|EA09PI3.csproj|e:\\viewfacecore\\ea09pi3 - jsonfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25B528F-BA7B-486E-BC4D-C487EBD2831D}|EA09PI3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EA09PI3.csproj",
+              "DocumentMoniker": "E:\\ViewFaceCore\\EA09PI3 - jsonfinal\\EA09PI3.csproj",
+              "RelativeDocumentMoniker": "EA09PI3.csproj",
+              "ToolTip": "E:\\ViewFaceCore\\EA09PI3 - jsonfinal\\EA09PI3.csproj",
+              "RelativeToolTip": "EA09PI3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-17T06:50:41.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ViewFaceCore\\EA09PI3 - jsonfinal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\ViewFaceCore\\EA09PI3 - jsonfinal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAKoCAAAAAAAAAAAmwLkCAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T02:07:08.026Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
